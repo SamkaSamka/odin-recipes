@@ -1,43 +1,42 @@
 body {
     font-family: Verdana, sans-serif;
     background-color: cadetblue;
-    color: #333
-}
-
-.ingredients{
-    background-color: blanchedalmond;
-    ;
-    padding: 20px;
-    margin: 10px;
-    border: 10px solid chocolate ;
-}
-
-.method {
-    
-    background-color: rgb(138, 111, 101);
-    padding: 20px;
-    margin: 10px;
-    border: 10px solid chocolate ;
-}
-.box {
-    height: auto;
-    width: 200px;
-    border: 10px solid black;
-    padding: 30px;
-    margin: 40px;
-    background-color: blanchedalmond; 
-
-}
-.title{
-    text-align: center;
-    background-color: beige;
-    font-family: Verdana, sans-serif;
     color: #333;
-    border: 5px solid brown ; 
-
+    max-width: 600px;
+    margin: 0 auto;    
 }
-img {
-    border: 5px solid black;
-    width: 400px;
-    height: auto;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.index-p {
+    color: black;
+    text-align: center;
+}
+.ingredients,
+.method,
+.box {
+    background-color: blanchedalmond; 
+    padding: 20px;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+    background-color: blanchedalmond; 
+    border: 8px solid brown; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.box {  
+    border: 8px solid chocolate;   
+}
+.ingredients{ 
+    border: 8px solid brown ;
+}
+.method {
+    border: 8px solid chocolate ;
 }
